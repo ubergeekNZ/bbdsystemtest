@@ -9,7 +9,7 @@ Beaglebone interface to the UUT via an IO cape. The aim is to use python behave,
 ### Reference
  
 
-- [Adafruit BBIO](https://github.com/adafruit/adafruit-beaglebone-io-python](https://github.com/adafruit/adafruit-beaglebone-io-python)
+- [Adafruit BBIO](https://github.com/adafruit/adafruit-beaglebone-io-python)
 - [Use of BeagleBone GPIO for SWD programming](https://www.disk91.com/2014/technology/hardware/use-of-beaglebone-gpio-for-swd-programming)
 - [Python Behave](http://pythonhosted.org/behave/)
 - [ZeroMQ](http://zeromq.org/)
