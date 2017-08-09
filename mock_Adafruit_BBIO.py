@@ -1,19 +1,25 @@
-import sys
 
 class ADC(object):
-    def setup(self, pinname, direction):
+    def setup(pinname, direction):
         pass;
-
+ 
 class GPIO(object):
+    IN = 0;
     OUT = 1;
-    def setup(self, pinname, direction):
+ 
+    LOW = 0;
+    HIGH = 1;
+    def setup(pinname, direction):
         pass;
-
-
+    def input(pinname):
+        pass;
+    def output(pinname, value):
+        pass;
+ 
 class PWM(object):
-    def start(self, pinname, duty, freq, polarity):
+    def start(pinname, duty, freq, polarity):
         pass;
-
+ 
 class UART(object):
-    def setup(self, pinname):
+    def setup(pinname):
         pass;
